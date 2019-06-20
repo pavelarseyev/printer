@@ -1,0 +1,61 @@
+// variables
+
+// colors
+$primary-color: #334499;
+$secondary-color: #336699;
+
+$white: #fff;
+$light-gray: #ccc;
+$medium-gray: #bbb;
+$dark-gray: #aaa;
+$black: #000;
+$danger-color: red;
+$warning-color: yellow;
+$success-color: green;
+
+$main-fz: 16px;
+$main-lh: 1.5;
+$main-ff: "Arial", "Helvetica", sans-serif;
+$main-text-color: $black;
+$headings-lh: 1.2;
+$main-margin: $main-fz * $main-lh;
+
+// grid settings
+$gl-colCount: 24;
+$gl-gridName: grid;
+$gl-colName: col;
+$gl-attributeName: class;
+$gl-gutter: 30px; // Total left + right
+$gl-gutter-vertical: 0;
+$gl-mq-width: 'min-width';
+$gl-mq-list: (
+    xs: 320px,
+    sm: 768px,
+    md: 1200px,
+    lg: 1800px
+);
+
+// media settings
+$breakpoints: (
+    mobile-landscape: 568px,
+    tablet: 768px,
+    tablet-landscape: 1024px,
+    desktop: 1200px,
+    medium-desktop: 1440px,
+    large-desktop: 1800px,
+    ultra-desktop: 2400px
+);
+
+$images-path: '../images/';
+
+body {
+    font: #{$main-fz}/#{$main-lh} $main-ff;
+    color: $main-text-color;
+    background: $white;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    // common styles
+}
